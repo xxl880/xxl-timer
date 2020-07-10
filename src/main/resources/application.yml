@@ -1,0 +1,18 @@
+server:
+  port: 884
+  servlet:
+    context-path: /timer
+
+spring:
+  application:
+    name: xxl-timer
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-8vb609g9dl7q906xlmmLAS1o.mysql.zhangbei.rds.aliyuncs.com:3306/xxl_robot?characterEncoding=utf8&useSSL=false&serverTimezone=GMT&rewriteBatchedStatements=true
+    username: ROOT
+    password: 123123
+
+
+robot:
+#  ips: http://localhost:881
+  ips: http://47.92.205.190:881
